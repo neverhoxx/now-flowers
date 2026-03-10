@@ -1,0 +1,41 @@
+<div className="max-w-93.5 w-full flex flex-col gap-8.75">
+    <div className="w-full max-h-102.25">
+        <Image className="object-cover max-h-102.25" src={b2} alt={"Pilt"} />
+    </div>
+
+    <div className="flex justify-between items-end">
+        <div className="text-2xl text-[#222]">
+            <h3>
+                Echo Of Feelings
+            </h3>
+            <span>100€</span>
+        </div>
+
+        <Link
+            className="px-4 py-1 border rounded-xl border-[#222222] text-[#222222] text-[18px] inline-flex justify-center items-center h-[36.6px] hover:text-[#E76D24] duration-300"
+            href="">
+        Buy
+        </Link>
+    </div>
+</div>
+
+<div className="max-w-93.5 w-full flex flex-col gap-8.75">
+    <div className="w-full max-h-89.75">
+        <Image className="object-cover max-h-89.75" src={b3} alt={"Pilt"} />
+    </div>
+
+    <div className="flex justify-between items-end">
+        <div className="text-2xl text-[#222]">
+            <h3>
+                Echo Of Feelings
+            </h3>
+            <span>100€</span>
+        </div>
+
+        <Link
+            className="px-4 py-1 border rounded-xl border-[#222222] text-[#222222] text-[18px] inline-flex justify-center items-center h-[36.6px] hover:text-[#E76D24] duration-300"
+            href="">
+        Buy
+        </Link>
+    </div>
+</div>
