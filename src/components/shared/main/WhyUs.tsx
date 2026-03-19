@@ -8,42 +8,79 @@ import pic4 from "@/images/why_now_4.jpeg";
 
 export default function WhyUs() {
     return (
-        <div id="about" className='md:py-25 py-10 bg-[#FAF3E1]'>
+        <div id="about" className="bg-[#FAF3E1] py-10 md:py-25">
             <Container1>
-                <div className="grid-container gap-x-10 gap-y-3 pt-20 md:pt-44.75">
-                    <div className="photo1 adaptive-block">
-                        <Image className="object-cover min-h-190.5 adaptive-photo" src={pic1} alt={""} />
-                    </div>
-                    <div className="photo2 adaptive-block">
-                        <Image className="object-cover max-h-113 adaptive-photo" src={pic2} alt={""} />
-                    </div>
-                    <h2 className="title text-[80px] ">
+                {/* MOBILE */}
+                <div className="md:hidden mx-auto w-full max-w-[320px]">
+                    <h2 className="text-center text-[30px] leading-[1] mb-6">
                         If not now, when?
                     </h2>
 
-                    <div className="text1 text-center text-[24px] flex items-end justify-center">
+                    <div className="text-left text-[18px] leading-[1.25] mb-6">
                         Мы создаём букеты про настроение, эстетику и живые эмоции.
                         <br />
                         Про моменты которые важно прожить сейчас.
                     </div>
 
-                    <div className="photo3 adaptive-block">
-                        <Image className="object-cover max-h-130 adaptive-photo" src={pic3} alt={""} />
-                    </div>
-                    <div className="photo4 adaptive-block">
-                        <Image className="object-cover max-h-162 adaptive-photo" src={pic4} alt={""} />
-                    </div>
-                    <div className="text2 text-center text-4xl flex items-end justify-center">
-                        <p>
-                            Цветы - всегда вовремя.
-                            <br />
-                            Жизнь - если не сейчас, то когда?
-                        </p>
+                    <div className="grid grid-cols-[72px_1fr] gap-4 items-start mb-6">
+                        <div className="pt-20">
+                            <Image
+                                src={pic3}
+                                alt=""
+                                className="w-full h-[110px] object-cover"
+                            />
+                        </div>
 
+                        <div>
+                            <Image
+                                src={pic4}
+                                alt=""
+                                className="w-full h-[250px] object-cover"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="text-left text-[18px] leading-[1.25]">
+                        Цветы - всегда вовремя.
+                        <br />
+                        Жизнь - если не сейчас, то когда?
+                    </div>
+                </div>
+
+                <div className="hidden md:block">
+                    <div className="grid-container gap-x-10 gap-y-3 pt-20 md:pt-44.75">
+                        <div className="photo1 adaptive-bloc">
+                            <Image className="object-cover min-h-190.5" src={pic1} alt={""} />
+                        </div>
+                        <div className="photo2 adaptive-bloc">
+                            <Image className="object-cover max-h-113" src={pic2} alt={""} />
+                        </div>
+                        <h2 className="title  text-5xl  xl:text-[80px] ">
+                            If not now, when?
+                        </h2>
+
+                        <div className="text1 text-center lg:text-[18px] xl:text-[24px] flex items-end justify-center">
+                            Мы создаём букеты про настроение, эстетику и живые эмоции.
+                            <br />
+                            Про моменты которые важно прожить сейчас.
+                        </div>
+
+                        <div className="photo3 adaptive-bloc ">
+                            <Image className="object-cover  xl:max-h-130" src={pic3} alt={""} />
+                        </div>
+                        <div className="photo4 adaptive-bloc">
+                            <Image className="object-cover max-h-162 " src={pic4} alt={""} />
+                        </div>
+                        <div className="text2 text-center text-4xl flex items-end justify-center">
+                            <p>
+                                Цветы - всегда вовремя.
+                                <br />
+                                Жизнь - если не сейчас, то когда?
+                            </p>
+                        </div>
                     </div>
                 </div>
             </Container1>
-
         </div>
     );
 }
