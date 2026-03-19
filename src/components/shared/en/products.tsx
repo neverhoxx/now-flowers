@@ -14,13 +14,13 @@ import b6 from "@/images/buket6.jpeg";
 import b7 from "@/images/buket7.jpeg";
 
 const products = [
-    { id: 1, name: "Echo Of Feelings", price: "100€", image: b1 },
-    { id: 2, name: "Marshmallow Bloom", price: "85€", image: b2 },
-    { id: 3, name: "Coconut Blanc", price: "95€", image: b3 },
-    { id: 4, name: "Wine Rhapsody", price: "110€", image: b4 },
-    { id: 5, name: "Bouqet", price: "90€", image: b5 },
-    { id: 6, name: "Bouqet", price: "120€", image: b6 },
-    { id: 7, name: "Bouqet", price: "105€", image: b7 }
+    { id: 1, name: "Echo Of Feelings", price: "190€", image: b1 },
+    { id: 2, name: "Marshmallow Bloom", price: "40€", image: b2 },
+    { id: 3, name: "Coconut Blanc", price: "85€", image: b3 },
+    { id: 4, name: "Wine Rhapsody", price: "70€", image: b4 },
+    { id: 5, name: "Bouqet", price: "55€", image: b5 },
+    { id: 6, name: "Bouqet", price: "60€", image: b6 },
+    { id: 7, name: "Bouqet", price: "60€", image: b7 }
 ];
 
 export default function Products() {
